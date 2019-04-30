@@ -1,0 +1,15 @@
+{
+    "name": "rd-time",
+    "version": "0.0.0",
+    "description": "Time compare + RTime object",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rdurica/rtime.git"
+    },
+    "author": "Robert Durica",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/rdurica/rtime/issues"
+    },
+    "homepage": "https://github.com/rdurica/rtime#readme"
+}
