@@ -1,5 +1,5 @@
 {
-    "name": "rd/time",
+    "name": "rd/rtime",
     "description": "Time compare + RTime object",
     "type": "library",
     "license": "MIT",
