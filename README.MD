@@ -1,4 +1,4 @@
-RD Authentication Bundle
+RD Time
 ------------
 
 ![Packagist](https://img.shields.io/packagist/l/rd/rtime.svg?style=flat-square)
