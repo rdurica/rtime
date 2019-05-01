@@ -203,19 +203,14 @@ class RTime
      */
     public static function isEquals(RTime $what, RTime $against): bool
     {
-        If ($what->getHours() !== $against->getHours()) {
-            return false;
+
+        $diff = self::timeDiff($what, $against);
+
+        if ($diff === 0) {
+            return true;
         }
 
-        if ($what->getMinutes() !== $against->getMinutes()) {
-            return false;
-        }
-
-        if ($what->getSeconds() !== $against->getSeconds()) {
-            return false;
-        }
-
-        return true;
+        return false;
     }
 
 
