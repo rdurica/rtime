@@ -194,4 +194,29 @@ class RTime
     }
 
 
+    /**
+     * Check if two objects have same values
+     *
+     * @param RTime $what
+     * @param RTime $against
+     * @return bool
+     */
+    public static function isEquals(RTime $what, RTime $against): bool
+    {
+        If ($what->getHours() !== $against->getHours()) {
+            return false;
+        }
+
+        if ($what->getMinutes() !== $against->getMinutes()) {
+            return false;
+        }
+
+        if ($what->getSeconds() !== $against->getSeconds()) {
+            return false;
+        }
+
+        return true;
+    }
+
+
 }
