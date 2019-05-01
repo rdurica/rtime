@@ -20,13 +20,21 @@ Overview
 ------------
 This library converts DateTime to new Time object.
 
-Get
+Initialize
 ```php
 
 use Rd\RTime\RTime;
 
 $rTime = new RTime(); 
 
+// or
+
+$rTime = new RTime(new DateTime('2019-04-30 10:00:00')); 
+
+```
+
+Get
+```php
 $rTime->getHours();
 $rTime->getMinutes();
 $rTime->getSeconds();
@@ -48,7 +56,8 @@ $rTime->addHours(int);
 
 Utils:
 ```php
-RTime::timeDiff(RTime $first, RTime $second): int //Returt time diff in seconds
-RTime::toSeconds(RTime $time): int // Convert RTime object to seconds
+RTime::timeDiff(RTime $first, RTime $second): int
+RTime::toSeconds(RTime $time): int
+RTime::isEquals(RTime $first, RTime $second): bool
 ```
 
