@@ -59,5 +59,7 @@ Utils:
 RTime::timeDiff(RTime $first, RTime $second): int
 RTime::toSeconds(RTime $time): int
 RTime::isEquals(RTime $first, RTime $second): bool
+RTime::isLower(RTime $first, RTime $second): bool
+RTime::isHigher(RTime $first, RTime $second): bool
 ```
 

@@ -214,4 +214,42 @@ class RTime
     }
 
 
+    /**
+     * Check if first value is lower than second
+     *
+     * @param RTime $what
+     * @param RTime $against
+     * @return bool
+     */
+    public static function isLower(RTime $what, RTime $against): bool
+    {
+        $diff = self::timeDiff($what, $against);
+
+        if ($diff < 0) {
+            return true;
+        }
+
+        return false;
+    }
+
+
+    /**
+     * Check if first value is higher than second
+     *
+     * @param RTime $what
+     * @param RTime $against
+     * @return bool
+     */
+    public static function isHigher(RTime $what, RTime $against): bool
+    {
+        $diff = self::timeDiff($what, $against);
+
+        if ($diff > 0) {
+            return true;
+        }
+
+        return false;
+    }
+
+
 }
