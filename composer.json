@@ -8,7 +8,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Rd\\Time\\": "src/"
+            "Rd\\RTime\\": "src/"
         }
     },
     "authors": [

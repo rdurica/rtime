@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Rd\Time;
+namespace Rd\RTime;
 
 use DateTime;
 

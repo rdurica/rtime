@@ -23,7 +23,7 @@ This library converts DateTime to new Time object.
 Get
 ```php
 
-use Rd\Time\RTime;
+use Rd\RTime\RTime;
 
 $rTime = new RTime(); 
 
